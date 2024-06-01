@@ -1,0 +1,37 @@
+body {
+    font-family: 'Courier New', monospace;
+    margin: 0;
+}
+
+.q1 {
+    display:flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: blue;
+}
+
+.header {
+    display: flex;
+    border-bottom: 4px;
+    padding: 6px;
+    justify-content: space-between;
+}
+
+.q1-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin:0 ;
+    border: 4px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+}
