@@ -1,37 +1,35 @@
 body {
-    font-family: 'Courier New', monospace;
-    margin: 0;
+    margin: 0 ;
+    font-family:'Courier New', Courier, monospace;
 }
 
 .q1 {
-    display:flex;
-    flex: 1;
+    display: flex;
     flex-direction: column;
-    background-color: blue;
+    background-color: rgb(7, 6, 6);
 }
 
 .header {
     display: flex;
-    border-bottom: 4px;
-    padding: 6px;
-    justify-content: space-between;
+    margin:0;
+}
+
+.logo {
+    color: aliceblue;
 }
 
 .q1-links {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 8px;
 }
 
 ul {
-    display: flex;
-    list-style-type: none;
-    margin:0 ;
-    border: 4px;
+    list-style-type:none ;
+    margin: 0;
 }
 
 a {
+    display: flex;
     text-decoration: none;
-    color: rgb(8, 8, 8);
+    color: aliceblue;
 }
