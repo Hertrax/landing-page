@@ -3,11 +3,11 @@ body {
     font-family:'Courier New', Courier, monospace;
 }
 
-.q1 {
+.main-section {
     display: flex;
     flex-direction: column;
     background-color: rgb(7, 6, 6);
-    padding: 16px 180px 20px 180px;
+    padding: 16px 240px 48px 240px;
 }
 
 .header {
@@ -35,6 +35,7 @@ body {
 } 
 
 .main-subtext {
+    padding-top: 16px;
     font-size: 18px;
 }
 
@@ -48,7 +49,7 @@ body {
     justify-content: space-between;
     margin-top: 48px;
     padding-top: 48px;
-    padding-bottom: 48px;
+    padding-bottom: 72px;
 }
 
 .main-button {
@@ -60,6 +61,7 @@ body {
     margin: 16px;
     font-size: 14;
     font-weight: bolder ;
+    text-align: center;
     box-shadow: 5px 5px #ffffff;
     border: 2px solid #ffffff 
 }
@@ -80,3 +82,4 @@ a {
     text-decoration: none;
     color: aliceblue;
 }
+<!-- hero section completed successfully -->
