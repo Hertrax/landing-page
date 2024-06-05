@@ -65,7 +65,7 @@ body {
     box-shadow: 5px 5px #ffffff;
     border: 2px solid #ffffff 
 }
-main > img {
+.main > img {
     display: flex;
     flex-shrink: 1;
     width: 700px;
@@ -83,3 +83,31 @@ a {
     color: aliceblue;
 }
 <!-- hero section completed successfully -->
+.info-section {
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center ;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+    padding-bottom: 16px;
+}
+
+.text {
+    flex-wrap: wrap;
+    text-align: center;
+}
+.imgs {
+    display: flex;
+    gap: 48px;
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
