@@ -8,6 +8,7 @@ body {
     flex-direction: column;
     background-color: rgb(7, 6, 6);
     padding: 16px 240px 48px 240px;
+    border-bottom: 5px solid aliceblue
 }
 
 .header {
@@ -30,19 +31,20 @@ body {
 }
 
 .main-header {
-    font-size: 40px;
+    font-size: 48px;
     font-weight: bolder;
 } 
 
 .main-subtext {
     padding-top: 16px;
-    font-size: 18px;
+    font-size: 25px;
 }
 
 .text {
     color: aliceblue;
     display: flex;
     flex-direction: column;
+    justify-self: center;
 }
 .main {
     display: flex;
@@ -83,21 +85,33 @@ a {
     color: aliceblue;
 }
 <!-- hero section completed successfully -->
+section {
+    margin: 16px 180px 16px 180px;
+
+}
 .info-section {
     display: flex;
-    
     flex-direction: column;
-    align-items: center ;
+    align-items: center;
+    background-color: rgb(7, 6, 6);
+    color: aliceblue;
+    padding-top: 48px;
+    padding-bottom: 115px;
+    border-bottom: 5px solid aliceblue;
 }
 
 .info-header {
     font-size: 36px;
     font-weight: 900;
-    padding-bottom: 16px;
+    padding-bottom: 48px;
 }
-
-.text {
+section ~ img {
+    padding-bottom: 8px;
+}
+.imgtext {
     flex-wrap: wrap;
+    font-size: 18px;
+    text-wrap: wrap;
     text-align: center;
 }
 .imgs {
