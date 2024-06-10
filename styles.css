@@ -196,6 +196,11 @@ section ~ img {
     align-items: center;
     border: 4pxpx solid dimgray;
 }
+
+.btext{
+    font-size: 18px;
+    font-weight: 600;
+}
  footer {
     background-color: #1F2937;
     color: #F9FAF8;
