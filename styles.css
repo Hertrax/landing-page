@@ -87,8 +87,8 @@ a {
 <!-- hero section completed successfully -->
 section {
     margin: 16px 180px 16px 180px;
+} 
 
-}
 .info-section {
     display: flex;
     flex-direction: column;
@@ -125,3 +125,84 @@ section ~ img {
     flex-wrap: wrap;
     align-content: center;
 }
+
+.quote {
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(7, 6, 6);
+    color: aliceblue;
+    height:680px;
+    align-content: center;
+    justify-content: center;
+    padding-left: 180px;
+    padding-right: 180px;
+    border-bottom: 5px solid aliceblue;
+}
+
+.content {
+    font-size: 76px;
+    text-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100px;
+    padding-bottom:8px
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.last {
+    height: 420px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 180px;
+    padding-right:180px;
+    background-color: rgb(7, 6, 6);
+    
+}
+
+.lastc {
+    height: 130px;
+    display: flex;
+    background-color: aliceblue;
+    padding: 36px 56px 36px 56px ;
+    justify-content: space-between;
+    width: 1500px;
+    align-items: center;
+    border-bottom: 5px solid aliceblue;
+}
+
+.lheader {
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 4px;
+}
+
+.ltext {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.lbutton {
+    background-color:blue;
+    display: flex;
+    color: #ffffff;
+    height: 65px;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    border: 4pxpx solid dimgray;
+}
+ footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-family: 'Times New Roman', Times, serif;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+ }
