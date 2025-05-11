@@ -67,6 +67,10 @@ body {
     box-shadow: 5px 5px #ffffff;
     border: 2px solid #ffffff 
 }
+
+.mainbutton:hover {
+    background-color:blue;
+}
 .main > img {
     display: flex;
     flex-shrink: 1;
@@ -197,10 +201,16 @@ section ~ img {
     border: 4pxpx solid dimgray;
 }
 
+.lbutton:hover {
+    background-color: blueviolet;
+}
+
 .btext{
     font-size: 18px;
     font-weight: 600;
 }
+
+
  footer {
     background-color: #1F2937;
     color: #F9FAF8;
